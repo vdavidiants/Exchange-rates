@@ -1,0 +1,19 @@
+input {
+  margin: 10px 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input[type='button'] {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+.readonly-input {
+  cursor: not-allowed;
+  outline: none;
+}

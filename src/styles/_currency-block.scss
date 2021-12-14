@@ -1,0 +1,35 @@
+.currency-block {
+  display: flex;
+  flex-wrap: wrap;
+  &_container {
+    min-width: 300px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(to top, #949ad890, #b39797);
+    border-radius: 15px;
+    box-shadow: 0 20px 25px -5px rgba(0 0 0 / 0.1),
+      0 10px 10px -5px rgba(0 0 0 / 0.04);
+  }
+  &_header {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px;
+    color: #2c3e50;
+  }
+  .currency-values {
+    flex-basis: 100%;
+    .current-currencies {
+      text-align: center;
+    }
+  }
+}
+
+p {
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 10px 0;
+}

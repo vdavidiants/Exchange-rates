@@ -1,0 +1,45 @@
+.delete-button {
+  font-weight: 900;
+  background: #7c1515;
+  &:hover {
+    filter: brightness(130%);
+  }
+  &:focus {
+    background: #ff3d00;
+  }
+}
+
+.add-currency-button {
+  background: #00acc1;
+  &:hover {
+    filter: brightness(130%);
+    color: #263238;
+  }
+  &:focus {
+    background: #00838f;
+  }
+}
+
+.change-rate-button {
+  background: #7cb342;
+  &:hover {
+    filter: brightness(130%);
+    color: #263238;
+  }
+  &:focus {
+    background: #33691e;
+  }
+}
+
+.favourite-button {
+  background: #b0bec5;
+  color: #000;
+  &:hover {
+    filter: brightness(130%);
+    color: #263238;
+  }
+  &-active {
+    background: #fb8c00;
+    color: #fff;
+  }
+}
